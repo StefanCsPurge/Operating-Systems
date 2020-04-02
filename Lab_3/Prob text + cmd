@@ -1,0 +1,4 @@
+Folosind fisierul /etc/passwd afisati cate grupe contin studenti cu numele Dan care au numar matricol par:
+
+awk -F: -f lab3.awk passwd
+

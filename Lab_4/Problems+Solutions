@@ -1,0 +1,36 @@
+Lab 4
+
+grep:
+1. Găsiți toate liniile care conțin cuvantul �cat� dintr-un fișier dat.
+	grep cat randomFile
+2. Găsiți toate liniile care �ncep cu un cuv�nt cu prefixul �ing� dintr-un fișier dat.
+	grep "^\(\<ing\w\+\>\)" randomFile
+3. Găsiți toate liniile cu număr impar de caractere dintr-un fișier dat.
+	grep -v "^\(..\)*$" randomFile
+4. Extrageți cuvintele cu 3 consoane consecutive dintr-un text.
+	grep -io "\<\w*[b-df-hj-np-tv-z]\{3\}\w*\>" randomFile
+
+sed: 
+1. Prefixați fiecare linie dintr-un fișier cu �abc�.
+	sed -i 's/^/abc/' randomFile
+2. Inlocuiți fiecare linie goală dintr-un fișier cu �empty�.
+	sed 's/^\s*$/empty/' -i randomFile
+3. Convertiți taburile �n 3 spații �ntr-un text dat.
+	sed -i 's/\t/   /g' randomFile
+4. Rotiți cu o poziție fiecare triplet de caractere dintr-un fișier.
+	sed 's/\<\(.\)\(.\)\(.\)\>/\3\1\2/g' randomFile  
+( -i modifica fisierul, -i.bak salveaza backup la fisier inainte)
+
+awk: (not connected to server)
+1. Sa se afiseze DOAR numele si prenumele utilizatorilor connectati la server 
+	awk -F: '{print $5}' passwd
+2. Sa se numere cati utilizatori dintr-o anumita grupa sunt conectati la server si sa se afiseze mesajul: "Din grupa xxxx sunt nnnn utilizatori conectati"
+	awk -F: -f groupUsers.awk passwd
+3. Calculati suma primelor două numere de pe liniile impare.
+	awk -f sumNumbers.awk randomFile
+4. Afișați prima zi din săptămanile care au toate zilele in luna curentă.
+	ncal -M|awk -f weeks.awk
+5. Să se scrie o comandă shell care afișează o statistică a numărului de procese per utilizator folosind comenzile ps, awk (sau cut), sort și uniq.
+	ps aux | awk '{print $1}' |sort|uniq -c|sort  -k1nr
+
+

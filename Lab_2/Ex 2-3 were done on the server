@@ -1,0 +1,9 @@
+2. Să se citească de la tastatură 10 numere �ntr-un vector static de �ntregi și să se afișeze minimul și media lor.
+
+    sugestii: gets()+atoi() sau scanf("%d", &var)
+    Incercați să asignați elementul cu indexul 10 din șir (al 11-lea) și să verificați rularea cu valgrind
+
+3. Să se citească un număr N de la tastatură, apoi N texte de maxim 20 de litere. Să se afișeze textele ordonate alfabetic.
+
+    sugestii: char**, malloc(), gets()
+

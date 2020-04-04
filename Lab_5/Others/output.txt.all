@@ -1,0 +1,451 @@
+total 1412
+-rw-r--r--  1 root     root      2981 Feb 28 14:35 adduser.conf
+-rw-r--r--  1 root     root        44 Feb 28 15:02 adjtime
+-rw-r--r--  1 root     root       198 Mar  3 15:59 aliases
+drwxr-xr-x  3 root     root      4096 Feb 28 14:50 alsa
+drwxr-xr-x  2 root     root     20480 Apr  1 14:01 alternatives
+drwxr-xr-x  8 root     root      4096 Feb 28 14:57 apache2
+drwxr-xr-x  3 root     root      4096 Feb 28 14:52 apparmor
+drwxr-xr-x  8 root     root      4096 Apr  1 14:01 apparmor.d
+drwxr-xr-x  7 root     root      4096 Mar  8 03:30 apt
+drwxr-xr-x  3 root     root      4096 Feb 28 14:57 avahi
+-rw-r--r--  1 root     root      1994 Nov 10 04:45 bash.bashrc
+-rw-r--r--  1 root     root        45 Jan 24 16:23 bash_completion
+drwxr-xr-x  2 root     root      4096 Mar  8 03:16 bash_completion.d
+-rw-r--r--  1 root     root       367 Feb 21  2019 bindresvport.blacklist
+drwxr-xr-x  2 root     root      4096 Dec  2 16:44 binfmt.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 bluetooth
+drwxr-xr-x  3 root     root      4096 Feb 28 14:50 ca-certificates
+-rw-r--r--  1 root     root      5713 Feb 28 14:55 ca-certificates.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:35 calendar
+drwxr-s---  2 root     dip       4096 Feb 28 14:53 chatscripts
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 chromium
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 chromium.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 cifs-utils
+drwxr-xr-x  2 root     root      4096 Feb 28 14:35 console-setup
+drwxr-xr-x  2 root     root      4096 Feb 28 14:58 cron.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:22 cron.daily
+drwxr-xr-x  2 root     root      4096 Feb 28 14:36 cron.hourly
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 cron.monthly
+-rw-r--r--  1 root     root      1042 Sep 15  2019 crontab
+drwxr-xr-x  2 root     root      4096 Mar  8 03:30 cron.weekly
+drwxr-xr-x  2 root     root      4096 Feb 28 14:37 cryptsetup-initramfs
+drwxr-xr-x  2 root     root      4096 Jul  5  2019 cryptsetup-nuke-password
+-rw-r--r--  1 root     root        71 Feb 28 14:34 crypttab
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 cupshelpers
+drwxr-xr-x  4 root     root      4096 Feb 28 14:50 dbus-1
+drwxr-xr-x  3 root     root      4096 Feb 28 14:50 dconf
+-rw-r--r--  1 root     root      2969 Aug  3  2019 debconf.conf
+-rw-r--r--  1 root     root        13 Jan 17 11:22 debian_version
+drwxr-xr-x  3 root     root      4096 Feb 28 14:51 debtags
+drwxr-xr-x  3 root     root      4096 Mar  8 03:30 default
+-rw-r--r--  1 root     root       604 Jun 26  2016 deluser.conf
+drwxr-xr-x  2 root     root      4096 Mar  3 11:26 depmod.d
+drwxr-xr-x  4 root     root      4096 Mar  8 03:22 dhcp
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 dictionaries-common
+drwxr-xr-x  2 root     root      4096 Feb 28 14:37 discover.conf.d
+-rw-r--r--  1 root     root       346 Jan 14  2018 discover-modprobe.conf
+drwxr-xr-x  4 root     root      4096 Feb 28 15:01 dkms
+-rw-r--r--  1 root     root       214 Jun 17  2010 dns2tcpd.conf
+drwxr-xr-x  4 root     root      4096 Feb 28 14:57 dpkg
+-rw-r--r--  1 root     root       685 Jan  8 14:58 e2scrub.conf
+drwxr-xr-x  3 root     root      4096 Feb 28 14:50 emacs
+-rw-r--r--  1 root     root       312 Feb 14 09:02 email-addresses
+-rw-r--r--  1 root     root         0 Feb 28 14:35 environment
+drwxr-xr-x  2 root     root      4096 Mar  8 03:23 environment.d
+-rw-r--r--  1 root     root      1816 Dec 26 18:42 ethertypes
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 ettercap
+drwxr-xr-x  3 root     root      4096 Mar  3 15:59 exim4
+drwxr-xr-x  3 root     root      4096 Feb 28 14:51 firebird
+drwxr-xr-x  4 root     root      4096 Feb 28 14:57 firefox-esr
+drwxr-xr-x  4 root     root      4096 Feb 28 14:54 fonts
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 freetds
+-rw-r--r--  1 root     root       686 Feb 28 14:34 fstab
+-rw-r--r--  1 root     root       694 Feb 13 10:06 fuse.conf
+-rw-r--r--  1 root     root      2584 Jan 31  2019 gai.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 16:09 gdb
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 geoclue
+drwxr-xr-x  4 root     root      4096 Mar  3 15:59 ghostscript
+drwxr-xr-x  3 root     root      4096 Feb 28 14:49 glvnd
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 groff
+-rw-r--r--  1 root     root      1259 Mar  8 03:30 group
+-rw-r--r--  1 root     root      1241 Mar  3 15:59 group-
+drwxr-xr-x  2 root     root      4096 Feb 28 14:58 grub.d
+-rw-r-----  1 root     shadow    1049 Mar  8 03:30 gshadow
+-rw-r-----  1 root     shadow    1034 Mar  3 15:59 gshadow-
+drwxr-xr-x  3 root     root      4096 Feb 28 14:49 gss
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 gtk-2.0
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 gtk-3.0
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 guymager
+-rw-r--r--  1 root     root      6748 Jan 21  2018 hddtemp.db
+-rw-r--r--  1 root     root      5060 Aug 21  2019 hdparm.conf
+drwxr-xr-x  2 root     root      4096 Mar  3 16:18 hostapd
+-rw-r--r--  1 root     root         9 Jan 17 11:22 host.conf
+-rw-r--r--  1 root     root         5 Feb 28 14:35 hostname
+-rw-r--r--  1 root     root       184 Feb 28 14:35 hosts
+-rw-r--r--  1 root     root       411 Feb 28 14:53 hosts.allow
+-rw-r--r--  1 root     root       711 Feb 28 14:53 hosts.deny
+-rw-r--r--  1 root     root       206 Apr  6  2019 idmapd.conf
+drwxr-xr-x  3 root     root      4096 Feb 28 14:50 ifplugd
+drwxr-xr-x  2 root     root      4096 Mar  3 15:59 ImageMagick-6
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 inetsim
+drwxr-xr-x  2 root     root      4096 Mar  8 03:30 init.d
+drwxr-xr-x  5 root     root      4096 Feb 28 14:35 initramfs-tools
+-rw-r--r--  1 root     root      1748 Aug 22  2019 inputrc
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 insserv.conf.d
+drwxr-xr-x  4 root     root      4096 Feb 28 14:36 iproute2
+-rw-r--r--  1 root     root       608 Feb 13 15:46 ipsec.conf
+drwxr-xr-x 11 root     root      4096 Feb 28 14:50 ipsec.d
+-rw-------  1 root     root       175 Feb 13 15:46 ipsec.secrets
+-rw-r--r--  1 root     root        30 Jan 17 11:22 issue
+-rw-r--r--  1 root     root        23 Jan 17 11:22 issue.net
+drwxr-xr-x  3 root     root      4096 Apr  1 14:00 java
+drwxr-xr-x  5 root     root      4096 Feb 28 14:57 java-11-openjdk
+drwxr-xr-x  5 root     root      4096 Feb 28 14:57 java-8-openjdk
+drwxr-xr-x  2 root     root      4096 Mar  3 15:46 joe
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 john
+drwxr-xr-x  8 root     root      4096 Feb 28 15:01 kernel
+-rw-r--r--  1 root     root       144 Feb 28 15:01 kernel-img.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 king-phisher
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 kismet
+drwxr-xr-x  2 root     root      4096 Feb 28 14:53 ldap
+-rw-r--r--  1 root     root     96526 Apr  1 14:01 ld.so.cache
+-rw-r--r--  1 root     root        34 Feb 21  2019 ld.so.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 ld.so.conf.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 legion
+-rw-r--r--  1 root     root       191 Jul 22  2019 libaudit.conf
+drwxr-xr-x  3 root     root      4096 Feb 28 14:51 libblockdev
+-rw-r--r--  1 root     root     47198 Aug 10  2019 libccid_Info.plist
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 libibverbs.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 libnl-3
+drwxr-xr-x  2 root     root      4096 Aug 18  2019 libpaper.d
+drwxr-xr-x  2 root     root      4096 Apr  1 14:01 libreoffice
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 lightdm
+drwxr-xr-x  4 root     root      4096 Mar  3 16:18 lighttpd
+-rw-r--r--  1 root     root      2995 Oct 31 17:31 locale.alias
+-rw-r--r--  1 root     root      9376 Feb 28 14:36 locale.gen
+lrwxrwxrwx  1 root     root        30 Feb 28 14:35 localtime -> /usr/share/zoneinfo/US/Central
+drwxr-xr-x  6 root     root      4096 Feb 28 14:50 logcheck
+-rw-r--r--  1 root     root     10477 Jul 16  2019 login.defs
+-rw-r--r--  1 root     root       435 Nov 12 08:24 logrotate.conf
+drwxr-xr-x  2 root     root      4096 Mar  8 03:30 logrotate.d
+drwxr-xr-x  4 root     root      4096 Mar  8 03:23 lvm
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 macchanger
+-r--r--r--  1 root     root        33 Feb 28 14:35 machine-id
+-rw-r--r--  1 root     root       111 Jan  6 05:22 magic
+-rw-r--r--  1 root     root       111 Jan  6 05:22 magic.mime
+-rw-r--r--  1 root     root     34672 Apr  1 14:02 mailcap
+-rw-r--r--  1 root     root       449 Oct  6 08:11 mailcap.order
+-rw-r--r--  1 root     root         5 Mar  3 15:59 mailname
+-rw-r--r--  1 root     root      5215 Feb 25 11:13 manpath.config
+-rw-r--r--  1 root     root     33486 Feb 12 20:55 matplotlibrc
+-rw-r--r--  1 root     root     24546 Oct  6 08:11 mime.types
+drwxr-xr-x  2 root     root      4096 Dec 22 20:06 minicom
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 miredo
+-rw-r--r--  1 root     root       264 Jul 26  2019 miredo.conf
+-rw-r--r--  1 root     root       846 Jan  8 14:58 mke2fs.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 15:02 modprobe.d
+-rw-r--r--  1 root     root       195 Feb 28 14:35 modules
+drwxr-xr-x  2 root     root      4096 Feb 28 14:36 modules-load.d
+-rw-r--r--  1 root     root       282 Jan 17 11:22 motd
+lrwxrwxrwx  1 root     root        19 Feb 28 15:04 mtab -> ../proc/self/mounts
+drwxr-xr-x  4 root     root      4096 Feb 28 14:57 mysql
+-rw-r--r--  1 root     root     10037 Feb  7 05:27 nanorc
+-rw-r--r--  1 root     root       767 Dec 27 08:11 netconfig
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 netsniff-ng
+drwxr-xr-x  7 root     root      4096 Feb 28 14:35 network
+drwxr-xr-x  7 root     root      4096 Feb 28 14:56 NetworkManager
+-rw-r--r--  1 root     root        60 Feb 28 14:35 networks
+drwxr-xr-x  8 root     root      4096 Feb 28 14:53 nginx
+-rw-r--r--  1 root     root      3287 Apr  8  2019 nikto.conf
+-rw-r--r--  1 root     root       542 Feb 28 14:57 nsswitch.conf
+-rw-r--r--  1 root     root      2162 Nov 13 19:08 ntp.conf
+drwxr-xr-x  2 root     root      4096 Jul 21  2019 ODBCDataSources
+-rw-r--r--  1 root     root         0 Jul 21  2019 odbc.ini
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 openal
+drwxr-xr-x  3 root     root      4096 Feb 28 14:51 OpenCL
+drwxr-xr-x  2 root     root      4096 Mar  8 03:22 openfortivpn
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 opensc
+drwxr-xr-x  4 root     root      4096 Feb 28 14:54 openvpn
+drwxr-xr-x  2 root     root      4096 Feb 28 14:34 opt
+lrwxrwxrwx  1 root     root        21 Jan 17 11:22 os-release -> ../usr/lib/os-release
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 PackageKit
+-rw-r--r--  1 root     root       552 Feb 14  2019 pam.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 pam.d
+-rw-r--r--  1 root     root         7 Feb 28 14:54 papersize
+-rw-r--r--  1 root     root      3266 Mar  8 03:30 passwd
+-rw-r--r--  1 root     root      3266 Mar  8 03:30 passwd-
+drwxr-xr-x  3 root     root      4096 Feb 28 14:49 perl
+drwxr-xr-x  3 root     root      4096 Feb 28 14:52 php
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 plymouth
+drwxr-xr-x  3 root     root      4096 Mar  3 16:18 pm
+drwxr-xr-x  4 root     root      4096 Feb 28 14:50 polkit-1
+drwxr-xr-x  3 postgres postgres  4096 Feb 28 14:56 postgresql
+drwxr-xr-x  3 root     root      4096 Mar  8 03:22 postgresql-common
+drwxr-xr-x  7 root     root      4096 Feb 28 14:54 ppp
+-rw-r--r--  1 root     root       767 Jan 17 11:22 profile
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 profile.d
+-rw-r--r--  1 root     root      2932 Apr  1  2013 protocols
+-rw-r--r--  1 root     root      1650 Oct  8  2018 proxychains.conf
+drwxr-xr-x  3 root     root      4096 Feb 28 14:57 pulse
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 python
+drwxr-xr-x  2 root     root      4096 Feb 28 14:49 python2.7
+drwxr-xr-x  2 root     root      4096 Feb 28 14:35 python3
+drwxr-xr-x  2 root     root      4096 Feb 28 14:36 python3.7
+drwxr-xr-x  2 root     root      4096 Feb 28 14:53 python3.8
+drwxr-xr-x  2 root     root      4096 Mar  8 03:30 rc0.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:30 rc1.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:31 rc2.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:31 rc3.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:31 rc4.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:31 rc5.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:30 rc6.d
+drwxr-xr-x  2 root     root      4096 Mar  3 16:18 rcS.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:53 reader.conf.d
+-rw-r--r--  1 root     root       373 Aug 13  2019 rearj.cfg
+-rw-r--r--  1 root     root      2431 Jan  2  2017 redsocks.conf
+-rw-r--r--  1 root     root      3267 Dec 14 12:18 reportbug.conf
+-rw-r--r--  1 root     root      1889 Feb 10 10:23 request-key.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 request-key.d
+-rw-r--r--  1 root     root        53 Apr  2 02:34 resolv.conf
+drwxr-xr-x  3 root     root      4096 Feb 28 14:50 resolvconf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:53 responder
+-rw-r--r--  1 root     root       298 Aug 19  2018 rlinetd.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 rlinetd.d
+lrwxrwxrwx  1 root     root        13 Aug  6  2019 rmt -> /usr/sbin/rmt
+-rw-r--r--  1 root     root       887 Apr  1  2013 rpc
+-rw-r--r--  1 root     root      1988 Nov 12 16:43 rsyslog.conf
+drwxr-xr-x  2 root     root      4096 Nov 12 16:43 rsyslog.d
+drwxr-xr-x  3 root     root      4096 Feb 28 14:51 runit
+drwxr-xr-x  3 root     root      4096 Feb 28 14:54 samba
+drwxr-xr-x  3 root     root      4096 Feb 28 14:57 sane.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:53 scalpel
+-rw-r--r--  1 root     root      3663 Jun 19  2016 screenrc
+-rw-r--r--  1 root     root       700 Feb 19 08:59 searchsploit_rc
+drwxr-xr-x  4 root     root      4096 Feb 28 14:35 security
+drwxr-xr-x  2 root     root      4096 Mar  3 16:18 selinux
+-rw-r--r--  1 root     root     10593 Nov  5 13:57 sensors3.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:53 sensors.d
+-rw-r--r--  1 root     root     14464 Feb 16 17:20 services
+-rw-r--r--  1 root     root       216 Dec 12 07:40 sestatus.conf
+-rw-r-----  1 root     shadow    1728 Mar  8 03:30 shadow
+-rw-r-----  1 root     shadow    1728 Mar  8 03:30 shadow-
+-rw-r--r--  1 root     root       168 Feb 28 14:54 shells
+drwxr-xr-x  2 root     root      4096 Mar  8 03:21 skel
+-rw-r--r--  1 root     root      7042 Jan  4 02:33 smartd.conf
+drwxr-xr-x  4 root     root      4096 Feb 28 14:51 smartmontools
+-rw-r--r--  1 root     root      1201 Dec  2  2018 smi.conf
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 snmp
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 sqlmap
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 ssh
+drwxr-xr-x  4 root     root      4096 Feb 28 14:54 ssl
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 sslsplit
+-rw-r--r--  1 root     root       281 Feb 13 15:46 strongswan.conf
+drwxr-xr-x  3 root     root      4096 Feb 28 14:54 strongswan.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 stunnel
+-rw-r--r--  1 root     root        20 Feb 28 15:01 subgid
+-rw-r--r--  1 root     root         0 Feb 28 14:35 subgid-
+-rw-r--r--  1 root     root        20 Feb 28 15:01 subuid
+-rw-r--r--  1 root     root         0 Feb 28 14:35 subuid-
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 subversion
+-r--r-----  1 root     root       669 Feb  2 01:07 sudoers
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 sudoers.d
+drwxr-xr-x  4 root     root      4096 Mar  8 03:30 sv
+-rw-r--r--  1 root     root      2351 May 31  2018 sysctl.conf
+drwxr-xr-x  2 root     root      4096 Mar  8 03:22 sysctl.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 sysstat
+drwxr-xr-x  5 root     root      4096 Feb 28 14:37 systemd
+drwxr-xr-x  2 root     root      4096 Mar  8 03:21 terminfo
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 theHarvester
+-rw-r--r--  1 root     root        11 Feb 28 14:35 timezone
+drwxr-xr-x  2 root     root      4096 Apr  1 14:01 timidity
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 tmpfiles.d
+drwxr-xr-x  2 root     root      4096 Mar  8 03:31 tor
+-rw-r--r--  1 root     root      1260 Dec 14  2018 ucf.conf
+drwxr-xr-x  4 root     root      4096 Feb 28 14:36 udev
+drwxr-xr-x  2 root     root      4096 Feb 28 14:55 udisks2
+drwxr-xr-x  3 root     root      4096 Feb 28 14:50 ufw
+-rw-r--r--  1 root     root       501 Aug  6  2019 updatedb.conf
+drwxr-xr-x  2 root     root      4096 Mar  3 16:18 update-motd.d
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 UPower
+-rw-r--r--  1 root     root      1523 Dec  6 11:37 usb_modeswitch.conf
+drwxr-xr-x  2 root     root      4096 Dec  8 08:02 usb_modeswitch.d
+-rw-r--r--  1 root     root        51 Aug 28  2019 vdpau_wrapper.cfg
+drwxr-xr-x  2 root     root      4096 Mar  8 03:22 vim
+drwx------  2 root     root      4096 Feb 28 14:56 vpnc
+drwxr-xr-x  5 root     root      4096 Feb 28 14:49 vulkan
+-rw-r--r--  1 root     root      4942 Oct 26 06:34 wgetrc
+drwxr-xr-x  2 root     root      4096 Mar  8 03:22 wireshark
+drwxr-xr-x  2 root     root      4096 Feb 28 14:56 wpa_supplicant
+drwxr-xr-x 11 root     root      4096 Mar  8 03:23 X11
+-rw-r--r--  1 root     root       642 Sep 23  2019 xattr.conf
+drwxr-xr-x  9 root     root      4096 Feb 28 14:57 xdg
+drwxr-xr-x  2 root     root      4096 Feb 28 14:57 xfce4
+drwxr-xr-x  2 root     root      4096 Feb 28 14:54 xl2tpd
+drwxr-xr-x  3 root     root      4096 Apr  1 14:00 xml
+drwxr-xr-x  2 root     root      4096 Feb 28 14:53 zsh
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 03:06 ?        00:00:03 /sbin/init splash
+root           2       0  0 03:06 ?        00:00:00 [kthreadd]
+root           3       2  0 03:06 ?        00:00:00 [rcu_gp]
+root           4       2  0 03:06 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 03:06 ?        00:00:00 [kworker/0:0H-kblockd]
+root           9       2  0 03:06 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 03:06 ?        00:00:00 [ksoftirqd/0]
+root          11       2  0 03:06 ?        00:00:03 [rcu_sched]
+root          12       2  0 03:06 ?        00:00:00 [migration/0]
+root          13       2  0 03:06 ?        00:00:00 [cpuhp/0]
+root          14       2  0 03:06 ?        00:00:00 [cpuhp/1]
+root          15       2  0 03:06 ?        00:00:00 [migration/1]
+root          16       2  0 03:06 ?        00:00:00 [ksoftirqd/1]
+root          18       2  0 03:06 ?        00:00:00 [kworker/1:0H-kblockd]
+root          19       2  0 03:06 ?        00:00:00 [cpuhp/2]
+root          20       2  0 03:06 ?        00:00:00 [migration/2]
+root          21       2  0 03:06 ?        00:00:00 [ksoftirqd/2]
+root          23       2  0 03:06 ?        00:00:00 [kworker/2:0H-kblockd]
+root          24       2  0 03:06 ?        00:00:00 [cpuhp/3]
+root          25       2  0 03:06 ?        00:00:00 [migration/3]
+root          26       2  0 03:06 ?        00:00:00 [ksoftirqd/3]
+root          28       2  0 03:06 ?        00:00:00 [kworker/3:0H-kblockd]
+root          29       2  0 03:06 ?        00:00:00 [kdevtmpfs]
+root          30       2  0 03:06 ?        00:00:00 [netns]
+root          31       2  0 03:06 ?        00:00:00 [kauditd]
+root          32       2  0 03:06 ?        00:00:00 [khungtaskd]
+root          33       2  0 03:06 ?        00:00:00 [oom_reaper]
+root          34       2  0 03:06 ?        00:00:00 [writeback]
+root          35       2  0 03:06 ?        00:00:00 [kcompactd0]
+root          36       2  0 03:06 ?        00:00:00 [ksmd]
+root          37       2  0 03:06 ?        00:00:00 [khugepaged]
+root          82       2  0 03:06 ?        00:00:00 [kintegrityd]
+root          83       2  0 03:06 ?        00:00:00 [kblockd]
+root          84       2  0 03:06 ?        00:00:00 [blkcg_punt_bio]
+root          85       2  0 03:06 ?        00:00:00 [edac-poller]
+root          86       2  0 03:06 ?        00:00:00 [devfreq_wq]
+root          89       2  0 03:07 ?        00:00:00 [kswapd0]
+root          90       2  0 03:07 ?        00:00:00 [kthrotld]
+root          91       2  0 03:07 ?        00:00:00 [acpi_thermal_pm]
+root          92       2  0 03:07 ?        00:00:00 [ipv6_addrconf]
+root         103       2  0 03:07 ?        00:00:00 [kstrp]
+root         108       2  0 03:07 ?        00:00:00 [kworker/u9:0]
+root         161       2  0 03:07 ?        00:00:00 [cryptd]
+root         164       2  0 03:07 ?        00:00:02 [irq/18-vmwgfx]
+root         165       2  0 03:07 ?        00:00:00 [ttm_swap]
+root         166       2  0 03:07 ?        00:00:00 [ata_sff]
+root         170       2  0 03:07 ?        00:00:00 [scsi_eh_0]
+root         171       2  0 03:07 ?        00:00:00 [scsi_eh_1]
+root         172       2  0 03:07 ?        00:00:00 [scsi_tmf_1]
+root         174       2  0 03:07 ?        00:00:00 [scsi_tmf_0]
+root         175       2  0 03:07 ?        00:00:00 [scsi_eh_2]
+root         176       2  0 03:07 ?        00:00:00 [scsi_tmf_2]
+root         250       2  0 03:07 ?        00:00:00 [kworker/2:1H-kblockd]
+root         252       2  0 03:07 ?        00:00:00 [kworker/0:1H-kblockd]
+root         257       2  0 03:07 ?        00:00:00 [kworker/3:1H-kblockd]
+root         259       2  0 03:07 ?        00:00:00 [kworker/1:1H-kblockd]
+root         325       2  0 03:07 ?        00:00:00 [kdmflush]
+root         327       2  0 03:07 ?        00:00:00 [kcryptd_io/254:]
+root         329       2  0 03:07 ?        00:00:00 [kcryptd/254:0]
+root         330       2  0 03:07 ?        00:00:00 [dmcrypt_write/2]
+root         340       2  0 03:07 ?        00:00:00 [kdmflush]
+root         342       2  0 03:07 ?        00:00:00 [kdmflush]
+root         380       2  0 03:07 ?        00:00:00 [jbd2/dm-1-8]
+root         381       2  0 03:07 ?        00:00:00 [ext4-rsv-conver]
+root         433       1  0 03:07 ?        00:00:01 /lib/systemd/systemd-journald
+root         439       2  0 03:07 ?        00:00:00 [rpciod]
+root         440       2  0 03:07 ?        00:00:00 [xprtiod]
+root         448       1  0 03:07 ?        00:00:00 /lib/systemd/systemd-udevd
+root         486       2  0 03:07 ?        00:00:00 [iprt-VBoxWQueue]
+root         525       2  0 03:07 ?        00:00:00 [ext4-rsv-conver]
+root         612       1  0 03:07 ?        00:00:04 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+root         614       1  0 03:07 ?        00:00:00 /usr/sbin/cron -f
+message+     615       1  0 03:07 ?        00:00:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         616       1  0 03:07 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         618       1  0 03:07 ?        00:00:02 /usr/lib/policykit-1/polkitd --no-debug
+root         620       1  0 03:07 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         621       1  0 03:07 ?        00:00:00 /usr/sbin/smartd -n
+root         653       1  0 03:07 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         681       1  0 03:07 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+root         684     681  0 03:07 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+root         697       1  0 03:07 ?        00:00:03 /usr/sbin/VBoxService
+root         756       1  0 03:07 ?        00:00:01 /lib/systemd/systemd-logind
+root         860       1  0 03:07 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         928       1  0 03:07 ?        00:00:00 /usr/sbin/lightdm
+root         946       1  0 03:07 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         947     928  0 03:07 tty7     00:03:48 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+rtkit       1022       1  0 03:07 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1034     928  0 03:07 ?        00:00:00 lightdm --session-child 14 23
+spurge      1039       1  0 03:07 ?        00:00:00 /lib/systemd/systemd --user
+spurge      1040    1039  0 03:07 ?        00:00:00 (sd-pam)
+spurge      1050    1039  0 03:07 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no
+spurge      1056    1034  0 03:07 ?        00:00:02 xfce4-session
+spurge      1064    1039  0 03:07 ?        00:00:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+spurge      1096       1  0 03:07 ?        00:00:00 /usr/bin/VBoxClient --display
+spurge      1098    1096  0 03:07 ?        00:00:00 /usr/bin/VBoxClient --display
+spurge      1103       1  0 03:07 ?        00:00:00 /usr/bin/VBoxClient --seamless
+spurge      1105    1103  0 03:07 ?        00:00:00 /usr/bin/VBoxClient --seamless
+spurge      1109       1  0 03:07 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+spurge      1111    1109  0 03:07 ?        00:00:32 /usr/bin/VBoxClient --draganddrop
+spurge      1123    1056  0 03:07 ?        00:00:00 /usr/bin/ssh-agent startxfce4
+spurge      1136    1039  0 03:07 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+spurge      1141    1136  0 03:07 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+spurge      1145    1039  0 03:07 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+spurge      1151    1039  0 03:07 ?        00:00:02 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+spurge      1157    1039  0 03:07 ?        00:00:00 /usr/bin/gpg-agent --supervised
+spurge      1159    1056  0 03:07 ?        00:00:50 xfwm4 --display :0.0 --sm-client-id 27819e7eb-8a0d-4b62-9022-62097a98c153
+spurge      1162    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfsd
+spurge      1167    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f
+spurge      1186       1  0 03:07 ?        00:00:02 xfsettingsd --display :0.0 --sm-client-id 2b01ca2ed-e32f-4ef2-bd1f-4a936cc3c58b
+root        1193       1  0 03:07 ?        00:00:01 /usr/lib/upower/upowerd
+spurge      1209    1056  0 03:07 ?        00:00:16 xfce4-panel --display :0.0 --sm-client-id 20e4570b4-2415-47d6-bc31-37c88c2478fd
+spurge      1215    1056  0 03:07 ?        00:00:49 Thunar --sm-client-id 26f4fd78c-6e77-4bf9-8f87-dc16f1d0c600 --daemon
+spurge      1220    1056  0 03:07 ?        00:00:04 xfdesktop --display :0.0 --sm-client-id 2a10b43f6-8b5e-4270-855b-e0dc336dc984
+spurge      1223    1209  0 03:07 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 20971527 whiskermenu Whisker Menu Show a menu to easily access installed applications
+spurge      1226    1209  0 03:07 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 15 20971529 systray Notification Area Area where notification icons appear
+spurge      1227    1209  0 03:07 ?        00:00:13 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 20971530 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+spurge      1230    1209  0 03:07 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 20971531 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+spurge      1231    1209  0 03:07 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 20971532 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+spurge      1232    1209  0 03:07 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 20 20971533 actions Action Buttons Log out, lock or other system actions
+spurge      1254    1039  0 03:07 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+spurge      1256       1  0 03:07 ?        00:00:01 xfce4-power-manager --restart --sm-client-id 292ccb918-3389-41d8-b328-ed70ac7da384
+spurge      1266    1056  0 03:07 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+spurge      1270    1056  0 03:07 ?        00:00:01 /usr/bin/python3 /usr/bin/blueman-applet
+spurge      1275    1056  0 03:07 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+spurge      1282    1056  0 03:07 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+spurge      1286    1039  0 03:07 ?        00:00:00 /usr/lib/dconf/dconf-service
+spurge      1291    1056  0 03:07 ?        00:00:00 xiccd
+spurge      1293       1  0 03:07 ?        00:00:00 xcape -e Super_L Control_L Escape
+spurge      1300    1056  0 03:07 ?        00:00:01 light-locker
+spurge      1311    1056  0 03:07 ?        00:00:00 nm-applet
+colord      1312       1  0 03:07 ?        00:00:00 /usr/lib/colord/colord
+spurge      1351    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root        1356       1  0 03:07 ?        00:00:00 /usr/lib/udisks2/udisksd
+spurge      1381       1  0 03:07 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-tray
+spurge      1403    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+spurge      1408    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+spurge      1412    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+spurge      1419    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+spurge      1431    1039  0 03:07 ?        00:00:00 /usr/lib/bluetooth/obexd
+spurge      1434    1162  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.11 /org/gtk/gvfs/exec_spaw/0
+spurge      1439    1039  0 03:07 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+spurge      1477       1  1 03:11 ?        00:06:14 /usr/bin/x-www-browser
+spurge      1578    1477  0 03:11 ?        00:00:14 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 177 -prefMapSize 182282 -parentBuildID 20200206211857 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appdir /usr/lib/firefox-esr/browser 1477 true tab
+spurge      1595    1477  0 03:11 ?        00:00:31 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 177 -prefMapSize 182282 -parentBuildID 20200206211857 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appdir /usr/lib/firefox-esr/browser 1477 true tab
+spurge      1639    1477  0 03:11 ?        00:00:26 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 5679 -prefMapSize 182282 -parentBuildID 20200206211857 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appdir /usr/lib/firefox-esr/browser 1477 true tab
+spurge      4422    1477  0 07:24 ?        00:01:44 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 14 -isForBrowser -prefsLen 6895 -prefMapSize 182282 -parentBuildID 20200206211857 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appdir /usr/lib/firefox-esr/browser 1477 true tab
+spurge      4541    1477  0 07:26 ?        00:00:04 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 15 -isForBrowser -prefsLen 6895 -prefMapSize 182282 -parentBuildID 20200206211857 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appdir /usr/lib/firefox-esr/browser 1477 true tab
+spurge      4764       1  0 07:30 ?        00:00:04 /usr/bin/qterminal
+spurge      4767    4764  0 07:30 pts/0    00:00:00 /bin/bash
+root        5155       2  0 08:39 ?        00:00:00 [kworker/0:1-events]
+root        5273       2  0 09:13 ?        00:00:00 [kworker/2:0-mm_percpu_wq]
+root        5297       2  0 09:23 ?        00:00:00 [kworker/u8:0-events_unbound]
+root        5469       2  0 09:39 ?        00:00:00 [kworker/3:2-events]
+root        5517       2  0 09:51 ?        00:00:00 [kworker/1:2-events]
+root        5534       2  0 09:53 ?        00:00:00 [kworker/u8:1-events_unbound]
+root        5602       2  0 09:54 ?        00:00:00 [kworker/0:2-cgroup_destroy]
+spurge      5627    1477  1 09:54 ?        00:00:24 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 20 -isForBrowser -prefsLen 6895 -prefMapSize 182282 -parentBuildID 20200206211857 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appdir /usr/lib/firefox-esr/browser 1477 true tab
+spurge      5683    1477  0 09:55 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 21 -isForBrowser -prefsLen 6895 -prefMapSize 182282 -parentBuildID 20200206211857 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appdir /usr/lib/firefox-esr/browser 1477 true tab
+root        5819       2  0 10:09 ?        00:00:00 [kworker/2:1]
+root        5820       2  0 10:09 ?        00:00:00 [kworker/3:0]
+root        5822       2  0 10:09 ?        00:00:00 [kworker/1:1-ata_sff]
+root        5838       2  0 10:12 ?        00:00:00 [kworker/u8:3-kcryptd/254:0]
+root        5841       2  0 10:14 ?        00:00:00 [kworker/1:0-ata_sff]
+spurge      5857    4767  0 10:19 pts/0    00:00:00 ps -ef

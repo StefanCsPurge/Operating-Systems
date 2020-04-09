@@ -1,0 +1,8 @@
+Explicați efectul produs de:
+
+execlp("ls", "ls", "*.c", NULL);
+
+This first searches for "ls" program in the PATH ( p ) then executes it by overriding the current process (the unexpected behaviour).
+The parameters are passed as a comma delimited enumeration ( l ) terminated by NULL.
+
+So, it executed the command "ls *.c", which shows all the files whose names  end with ".c" from the current directory.

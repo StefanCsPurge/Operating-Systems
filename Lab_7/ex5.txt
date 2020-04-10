@@ -1,0 +1,1 @@
+awk '/\<word\>/{if(length($0) % 3 == 0) print $0}' file.txt

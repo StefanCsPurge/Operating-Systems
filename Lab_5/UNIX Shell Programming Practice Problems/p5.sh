@@ -12,10 +12,10 @@ fi
 echo Monitoring started...
 while true; do 
 	for A in $@; do
-		ps -aux | grep $A | while read P; do
-			if ! echo $P | egrep -q 'p5|grep|ps'; then
+		ps -aux | grep -i $A | while read P; do
+			if ! echo $P | egrep -q "$0|grep|$$"; then
 				pid=`echo $P | awk '{print $2}'`
-				echo Found $A PID $pid !
+				echo FOUND $P
 				kill -9 $pid
 				echo $pid killed
 				echo

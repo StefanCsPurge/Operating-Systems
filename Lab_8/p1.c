@@ -9,7 +9,7 @@
 #include <string.h>
 
 int v=0,n=0;
-pthread_mutex_t mutex;
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 void* threadFunction(void *param)
 {

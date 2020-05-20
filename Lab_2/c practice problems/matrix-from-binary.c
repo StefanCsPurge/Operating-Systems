@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
         exit(1);
     }
 
-    if(reaad(fd, rows, sizeof(int)) <= 0) {
+    if(read(fd, rows, sizeof(int)) <= 0) {
         perror("Could not read the number of rows");
         exit(1);
     }

@@ -40,7 +40,7 @@ void clear(struct node* head) {
     if(head == NULL) {
         return;
     }
-    clearhead->next);
+    clear(head->next);
     free(head->name);
     free(head);
 }

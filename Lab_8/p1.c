@@ -9,7 +9,8 @@
 #include <string.h>
 
 int v=0,n=0;
-pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t vm = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t dm = PTHREAD_MUTEX_INITIALIZER;
 
 void* threadFunction(void *param)
 {
@@ -22,13 +23,13 @@ void* threadFunction(void *param)
 			nr++;
 	printf("%s %d %d\n",string,voc,nr);
 	
-	pthread_mutex_lock(&mutex);
+	pthread_mutex_lock(&vm);
 	v+=voc;
-	pthread_mutex_unlock(&mutex);
+	pthread_mutex_unlock(&vm);
 
-	pthread_mutex_lock(&mutex);
+	pthread_mutex_lock(&dm);
 	n+=nr;
-	pthread_mutex_unlock(&mutex);
+	pthread_mutex_unlock(&dm);
 
 	return NULL;
 }
@@ -51,7 +52,8 @@ int main(int argc, char** argv)
 	for(int i=0;i<5;i++)
 		pthread_join(thr[i],NULL);
 
-	pthread_mutex_destroy(&mutex);
+	pthread_mutex_destroy(&vm);
+	pthread_mutex_destroy(&dm);
 	
 	printf("The total number of vowels is %d\n",v);
 	printf("The total number of digits is %d\n",n);

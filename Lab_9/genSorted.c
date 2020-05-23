@@ -50,7 +50,7 @@ int main()
 {
 	srand(time(NULL));
 	pthread_t thr[5];
-	for(int i=0;i<4;i++)
+	for(int i=0;i<5;i++)
 		pthread_create(&thr[i],NULL,threadFunction,NULL);
 	while(size<=1000)
 	{
@@ -71,7 +71,7 @@ int main()
 		}
 		pthread_mutex_unlock(&m2);
 	}
-	for(int i=0;i<4;i++)
+	for(int i=0;i<5;i++)
 	{
 		pthread_join(thr[i],NULL);
 	}

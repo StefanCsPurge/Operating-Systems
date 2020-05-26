@@ -1,6 +1,10 @@
 /*
 Sa se scrie un program care genereaza pe 5 thread-uri distincte 1000 de numere intregi pe care le introduce intr-un vector global. 
 Fiecare numar generat va fi introdus de thread-ul care l-a generat pe pozitia corecta in vector, astfel incat la orice moment vectorul sa fie sortat.
+
+Programul va creea alte 3 thread-uri care extrag din vector numarul cel mai apropiat de media aritmetica a numerelor prezente in vector. 
+Extragerea va avea loc la fiecare 10 numere generate.
+
 Threadul principal va afisa la fiecare 10 numere generate intreg continutul vectorului.
 */
 

@@ -24,7 +24,7 @@ void processB()
 			sum += x;
 		}
 	}
-	
+	close(d);
 	printf("In B: %d numbers are div with %d\n",nr,n);
 	
 	d = open("myfifo",O_WRONLY);

@@ -60,7 +60,7 @@ int main()
 		scanf("%d",&x);
 	}
 	close(d);
-	wait(0);
+	
 
 	d = open("myfifo",O_RDONLY);
 	int sum = 0;
@@ -72,6 +72,7 @@ int main()
 	printf("The sum is %d\n",sum);
 	
 	close(d);
+	wait(0);
 	unlink("myfifo");
 	return 0;
 }
